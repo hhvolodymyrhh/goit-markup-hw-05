@@ -184,9 +184,9 @@ margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* opacity: 0;
+    opacity: 0;
     pointer-events: none;
-    transition: 250ms ease-in-out; */
+    transition: 250ms ease-in-out;
 }
 
 .modal-overlay.is-open {
@@ -330,6 +330,7 @@ fill: #fff;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
+    margin-bottom: 24px;
 }
 
 .solutions-accept-link {
@@ -337,6 +338,26 @@ fill: #fff;
     text-decoration: underline;
     text-decoration-skip-ink: none;
     color: #4d5ae5;
+}
+
+.solutions-send-batton{
+    display: flex;
+    justify-content: center;
+}
+
+.solutions-send{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
+    background-color: #4D5AE5;
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
+    
 }
 
     /* Features section 2*/
