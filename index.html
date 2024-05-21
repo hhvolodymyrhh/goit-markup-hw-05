@@ -498,90 +498,93 @@
           </form>
         </div>
       </div>
-    </footer>
-    <!-- Modal -->
-    <div class="modal-overlay">
-      <div class="modal">
-        <button class="solutions-close-button" type="button">
-          <svg class="solutions-close-icon" height="8" width="8">
-            <use href="./images/icons.svg#icon-close-black-18dp" />
-          </svg>
-        </button>
 
-        <p class="modal-item">Leave your contacts and we will call you back</p>
-        <form class="modal-form">
-          <div class="modal-box-form">
-            <label class="modal-name" for="user-name">Name </label>
-            <div class="solutions-name-box">
-              <input
-                class="solutions-name-input"
-                type="text"
-                name="user-name"
-                id="user-name"
-              />
-              <svg class="solutions-form-icon" height="24" width="18">
-                <use href="./images/icons.svg#icon-person-black-18dp" />
-              </svg>
+      <!-- Modal -->
+      <div class="modal-overlay">
+        <div class="modal">
+          <button class="solutions-close-button" type="button">
+            <svg class="solutions-close-icon" height="8" width="8">
+              <use href="./images/icons.svg#icon-close-black-18dp" />
+            </svg>
+          </button>
+
+          <p class="modal-item">
+            Leave your contacts and we will call you back
+          </p>
+          <form class="modal-form">
+            <div class="modal-box-form">
+              <label class="modal-name" for="user-name">Name </label>
+              <div class="solutions-name-box">
+                <input
+                  class="solutions-name-input"
+                  type="text"
+                  name="user-name"
+                  id="user-name"
+                />
+                <svg class="solutions-form-icon" height="24" width="18">
+                  <use href="./images/icons.svg#icon-person-black-18dp" />
+                </svg>
+              </div>
+
+              <label class="modal-name" for="user-phone">Phone </label>
+              <div class="solutions-name-box">
+                <input
+                  class="solutions-name-input"
+                  type="tel"
+                  name="user-phone"
+                  id="user-phone"
+                />
+                <svg class="solutions-form-icon" height="24" width="18">
+                  <use href="./images/icons.svg#icon-phone" />
+                </svg>
+              </div>
+
+              <label class="modal-name" for="user-email">Email </label>
+              <div class="solutions-name-box">
+                <input
+                  class="solutions-name-input"
+                  type="email"
+                  name="user-email"
+                  id="user-email"
+                />
+                <svg class="solutions-form-icon" height="24" width="18">
+                  <use href="./images/icons.svg#icon-email" />
+                </svg>
+              </div>
+
+              <div class="modal-box-textarea">
+                <label class="modal-name" for="user-comment">Comment </label>
+                <textarea
+                  class="solutions-name-textarea"
+                  name="user-comment"
+                  id="user-comment"
+                  placeholder="Text input"
+                ></textarea>
+              </div>
+              <div class="solutions-checkbox-box">
+                <input
+                  class="visually-hidden"
+                  type="checkbox"
+                  name="user-privacy"
+                  value="true"
+                  id="user-privacy"
+                />
+                <label class="solutions-accept" for="user-privacy"
+                  ><span class="solutions-accept-span">
+                    <svg class="solutions-span-icon" height="8" width="10">
+                      <use href="./images/icons.svg#icon-tick" />
+                    </svg> </span
+                  >I accept the terms and conditions of the
+
+                  <a class="solutions-accept-link">Privacy Policy</a>
+                </label>
+              </div>
+
+              <button class="solutions-send" type="submit">Send</button>
             </div>
-
-            <label class="modal-name" for="user-phone">Phone </label>
-            <div class="solutions-name-box">
-              <input
-                class="solutions-name-input"
-                type="tel"
-                name="user-phone"
-                id="user-phone"
-              />
-              <svg class="solutions-form-icon" height="24" width="18">
-                <use href="./images/icons.svg#icon-phone" />
-              </svg>
-            </div>
-
-            <label class="modal-name" for="user-email">Email </label>
-            <div class="solutions-name-box">
-              <input
-                class="solutions-name-input"
-                type="email"
-                name="user-email"
-                id="user-email"
-              />
-              <svg class="solutions-form-icon" height="24" width="18">
-                <use href="./images/icons.svg#icon-email" />
-              </svg>
-            </div>
-
-            <div class="modal-box-textarea">
-              <label class="modal-name" for="user-comment">Comment </label>
-              <textarea
-                class="solutions-name-textarea"
-                name="user-comment"
-                id="user-comment"
-                placeholder="Text input"
-              ></textarea>
-            </div>
-            <div class="solutions-checkbox-box">
-              <input
-                class="visually-hidden"
-                type="checkbox"
-                name="user-privacy"
-                value="true"
-                id="user-privacy"
-              />
-              <label class="solutions-accept" for="user-privacy"
-                ><span class="solutions-accept-span">
-                  <svg class="solutions-span-icon" height="8" width="10">
-                    <use href="./images/icons.svg#icon-tick" />
-                  </svg> </span
-                >I accept the terms and conditions of the
-
-                <a class="solutions-accept-link">Privacy Policy</a>
-              </label>
-            </div>
-
-            <button class="solutions-send" type="submit">Send</button>
-          </div>
-        </form>
+          </form>
+        </div>
       </div>
-    </div>
+    </footer>
   </body>
 </html>
