@@ -590,13 +590,13 @@ margin-right: 120px;
 }
 
 .modal-form {
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .modal-box-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+   
     
 }
 
