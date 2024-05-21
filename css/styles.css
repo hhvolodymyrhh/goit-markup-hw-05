@@ -585,9 +585,7 @@ margin-right: 120px;
 }
 
 .modal-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  
 }
 
 .modal-box-form {
@@ -710,6 +708,7 @@ margin-right: 120px;
 }
 
 .solutions-send {
+   
     display: block;
     width: 169px;
     height: 56px;
