@@ -251,11 +251,8 @@ margin: 0;
     gap: 24px;
 }
 .team-list{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     border-radius: 0px 0px 4px 4px;
-    background: #fff;
+    background-color: #fff;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 .team-wrapper{
@@ -392,7 +389,7 @@ margin: 0;
 .box-footer{
 margin-right: 120px;
 }
-.logo{
+.logo-footer{
     display: inline-block;
     margin-bottom: 16px;
 }
